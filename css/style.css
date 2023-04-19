@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.row-head {
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row-jumbo {
+    width: 100%;
+    background-color:green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-50 {
+    width: calc(100% / 3);
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    border: 1px dashed black;
+}
+
+.col-70 {
+    width: 70%;
+    height: 500px;
+    background-color: blue;  
+    border: 1px dashed black;  
+}
