@@ -125,8 +125,7 @@ body {
 
 .col-70 {
     width: 70%;
-    height: 500px;
-    background-color: blue;  
+    height: 600px; 
     border: 1px dashed black;  
 }
 
@@ -150,13 +149,12 @@ body {
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(0, 110, 255);
     border: none;
     color: white;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 12px;
     margin-top: 15px;
     margin-right: 20px;
@@ -178,11 +176,26 @@ button {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    justify-content: flex-start;
 }
 
 .jumbo {
     position: absolute;
     width: 700px;
-    top: 500px;
-    
+    top: 280px;
+    left:270px;
+}
+
+.button-jumbo {
+    background-color: rgb(0, 110, 255);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 35px 0;
+}
+
+.arrow {
+    font-size: 70px;
 }
