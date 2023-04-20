@@ -38,7 +38,6 @@ body {
 
 .row-center {
     width: 100%;
-    background-color:lightblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -46,7 +45,6 @@ body {
 
 .row-main {
         width: 60%;
-        background-color: yellow;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -84,22 +82,17 @@ body {
 .col-33-b {
     width: calc(100%/3 - 20px);
     margin: 10px;
-    border: 1px dashed black;
     margin-top: 30px;
 }
 
 .col-33vw {
     width: calc(100%/3);
-    background-color: cornflowerblue;
-    border: 1px dashed black;
-    height: 400px;
     margin-top: 40px;
 }
 
 .col-int {
     width: calc(100% / 2);
     height: 200px;
-    border: 1px dashed black;
     display: flex;
     align-items: center;
 }
@@ -108,14 +101,10 @@ body {
     width: calc(100% / 2);
     margin-top: 60px;
     margin-bottom: 120px;
-    height: 300px;
-    background-color: lightgreen;
-    border: 1px dashed black;
 }
 
 .col-60-top {
     width: 100%;  
-    border: 1px dashed black;
     margin-top: 100px;
 }
 
@@ -127,7 +116,6 @@ body {
 .col-70 {
     width: 70%;
     height: 600px; 
-    border: 1px dashed black;  
 }
 
 .col-faq {
