@@ -99,8 +99,9 @@ body {
 .col-int {
     width: calc(100% / 2);
     height: 200px;
-    background-color: brown;
     border: 1px dashed black;
+    display: flex;
+    align-items: center;
 }
 
 .col-50 {
@@ -299,4 +300,61 @@ hr {
 /* sezione-3 */
 .img-square {
     width: 100%;
+}
+
+/* sezione-4 */
+#green {
+    background-color: lightgreen;
+    border: 10px solid rgb(191, 255, 191);
+}
+
+#burgundy {
+    background-color: rgb(105, 2, 33);
+}
+
+#lightblue {
+    background-color: rgb(74, 195, 243);
+}
+
+#red {
+    background-color: red;
+}
+
+#dark-red {
+    background-color: rgb(199, 0, 0);
+}
+
+#light-blue {
+    background-color: lightblue;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: rgb(255, 230, 0);
+}
+
+#gray {
+    background-color: lightgray;
+}
+
+.logo1 {
+    filter: invert(100%);
+    width: 50%;
+}
+
+.logo2 {
+    width: 50%;
+}
+
+.content-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-center {
+    margin: 50px;
 }
