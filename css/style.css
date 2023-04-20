@@ -205,7 +205,9 @@ button {
 }
 
 .content-sec1-list {
-    margin: 20px;
+    padding-top: 20px;
+    padding: 20px;
+    border: 1px solid gray;
 }
 
 .txt-bold {
