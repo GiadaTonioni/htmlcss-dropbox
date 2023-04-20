@@ -78,9 +78,7 @@ body {
 .col-33 {
     width: calc(100%/3 - 20px);
     margin:30px 10px;
-    background-color: lightblue;
-    border: 1px dashed black;
-    height: 800px;
+    border: 1px solid lightgray;
 }
 
 .col-33-b {
@@ -115,10 +113,15 @@ body {
     border: 1px dashed black;
 }
 
-.col-60 {
+.col-60-top {
     width: 100%;  
     border: 1px dashed black;
     margin-top: 100px;
+}
+
+.col-60-bottom {
+    width: 100%;  
+    border: 1px solid lightgray;
 }
 
 .col-70 {
@@ -201,13 +204,12 @@ button {
 .content-sec1-top {
     text-align: center;
     padding: 5px;
-    border: 0.5px solid gray;
+    border: 0.5px solid lightgray;
 }
 
 .content-sec1-list {
     padding-top: 20px;
     padding: 20px;
-    border: 1px solid gray;
 }
 
 .txt-bold {
@@ -249,4 +251,10 @@ hr {
 
 .check {
     color: rgb(0, 110, 255);;
+}
+
+.content-bottom {
+    position: relative;
+    padding-top: 20px;
+    padding: 20px;
 }
