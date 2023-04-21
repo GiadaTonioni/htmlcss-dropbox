@@ -30,7 +30,6 @@ body {
 
 .row-foot {
     width: 70%;
-    background-color: peru;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -63,9 +62,6 @@ body {
 .col-20 {
     width: calc(100% / 5 - 20px);
     margin: 10xp;
-    background-color: yellowgreen;
-    height: 300px;
-    border: 1px dashed black;
 }
 
 .col-25 {
@@ -123,8 +119,6 @@ body {
 
 .col-faq {
     width: 100%;
-    background-color: blueviolet;
-    border: 1px dashed black;
 }
 /* FINE COLONNE */
 
@@ -329,10 +323,15 @@ hr {
 #gray {
     background-color: rgb(224, 224, 224);
 }
+
 .purple {
     color: rgb(105, 2, 33);
     text-align: left;
     padding: 60px 0;
+}
+
+#black {
+    background-color: black;
 }
 
 .logo1 {
@@ -374,12 +373,16 @@ h2 {
     line-height: 50px;
 }
 
+.cont-faq {
+    margin-bottom: 90px;
+}
+
 .border-bot {
     border-bottom: 1px solid gray;
 }
 
 .freccia {
-    font-size: 35px;
+    font-size: 15px;
     margin-top: 15px;
     margin-right: 15px;
 }
@@ -387,4 +390,31 @@ h2 {
 .subtitle {
     margin-top: 80px;
     margin-bottom: 40px;
+}
+
+.txt-white {
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.txt-gray {
+    color: gray;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.txt-bold-white {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+}
+
+.row-foot ul {
+    padding-bottom: 50px;
+}
+
+.row-foot p {
+    padding-bottom: 25px;
 }
